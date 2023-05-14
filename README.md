@@ -33,8 +33,8 @@
 
 [内存分配](https://www.cnblogs.com/Li-F/p/11971571.html)
 
-[文件系统](https://zhuanlan.zhihu.com/p/183238194)
-
+[文件系统.1](https://zhuanlan.zhihu.com/p/183238194)
+[文件系统.2](http://ruanyifeng.com/blog/2011/12/inode.html)
 
 ---
 ### 数据库
