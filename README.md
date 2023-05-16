@@ -7,13 +7,11 @@
 ### C++
 > C++是用C语言实现的，在C语言的基础上进行改进和扩展的
 
-1. 知乎优质博主：
-2. [wolai](https://www.wolai.com/wuning/8m9F2QuBJbAM51RNbiBqyq)
-
-应用方向：
+#### 应用方向：
 1. 嵌入式
 2. 编译器
 3. 图形学
+   
 ### Go
 > Go 语言在1.5版本前主要由汇编和C语言写的，C语言占比85%以上，另外有少量的周边模块如文档等，带了些 html shell perl 代码，可以忽略不计。1.5版本及之后，Go 完成了语言自举， 由 89.9% 的Go，4.6%的汇编语言，0.2%的C语言，5.3%其他胶水语言（html shell perl）编写而成！
 > 
@@ -56,8 +54,7 @@
    
 ### Redis
 1. [菜鸟教程](https://www.runoob.com/redis/redis-tutorial.html) 
-2. 
-
+   
 ---
 ## 人工智能
 ### NLP
@@ -65,4 +62,25 @@
 ---
 ## 算法
 #### 线段树
-1. 应用范围：区间查询，单点修改
+1. 应用范围：区间查询，单点查询，区间修改，单点修改
+- [洛谷题单](https://www.luogu.com.cn/training/206#problems)
+
+#### 树状数组
+1. 功能被包含于线段树，只能进行单点修改和区间查询，但是代码更简洁
+   
+---
+## 优秀博客
+[阮一峰](http://www.ruanyifeng.com/blog/computer/)
+
+[武宁子](https://www.wolai.com/wuning/8m9F2QuBJbAM51RNbiBqyq)
+
+[Li-Yongjun](https://liyongjun.blog.csdn.net/?type=blog)
+
+---
+## 实用
+### API
+1. [API文档汇总](https://blog.csdn.net/freeking101/article/details/115191217?spm=1001.2014.3001.5506)
+
+---
+## 杂谈
+- 计算机系统研究内核用三个词概括：计算 通信 存储
