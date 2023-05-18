@@ -1,9 +1,54 @@
 # Resource-Collection
 >不生产知识，只是知识的搬运工，收集全网优质学习资源 & 引流工程
 
+- [Resource-Collection](#resource-collection)
+- [编程语言](#编程语言)
+  - [C++](#c)
+    - [应用方向：](#应用方向)
+  - [Go](#go)
+  - [Java](#java)
+    - [Java基础](#java基础)
+- [数学](#数学)
+  - [概率](#概率)
+- [基础知识](#基础知识)
+  - [操作系统](#操作系统)
+  - [数据结构](#数据结构)
+    - [树](#树)
+  - [数据库](#数据库)
+    - [模型](#模型)
+    - [索引](#索引)
+- [学业](#学业)
+  - [学校排名](#学校排名)
+  - [基本路线](#基本路线)
+- [工具](#工具)
+  - [Docker](#docker)
+  - [Redis](#redis)
+- [人工智能](#人工智能)
+  - [NLP](#nlp)
+    - [编译原理](#编译原理)
+- [网络安全](#网络安全)
+  - [学习路线](#学习路线)
+- [算法](#算法)
+  - [线段树](#线段树)
+  - [树状数组](#树状数组)
+  - [网络流](#网络流)
+  - [动态规划](#动态规划)
+  - [算法设计](#算法设计)
+  - [题解汇总](#题解汇总)
+- [优秀博客](#优秀博客)
+- [书籍推荐](#书籍推荐)
+  - [CSAPP](#csapp)
+  - [操作系统真相还原](#操作系统真相还原)
+- [面试](#面试)
+  - [企业面试](#企业面试)
+- [实用](#实用)
+  - [API](#api)
+- [杂谈](#杂谈)
+- [未来规划](#未来规划)
+
 [编程语言](##编程语言)
 
-## 编程语言
+# 编程语言
 ## C++
 > C++是用C语言实现的，在C语言的基础上进行改进和扩展的
 - [C++面向对象程序设计](https://blog.csdn.net/weixin_44368437/article/details/117563488?spm=1001.2014.3001.5506)
@@ -33,12 +78,12 @@
    - [Java基础知识总结](https://blog.csdn.net/Pandafz1997/article/details/120865759?spm=1001.2014.3001.5506)
    - 
 ---
-## 数学
-### 概率
+# 数学
+## 概率
 - [习题](./notes/Probability_Theory.md)
 
-## 基础知识
-### 操作系统
+# 基础知识
+## 操作系统
 [CS-Notes](https://github.com/CyC2018/CS-Notes)
 
 [内存分配](https://www.cnblogs.com/Li-F/p/11971571.html)
@@ -47,70 +92,70 @@
 [文件系统.2](http://ruanyifeng.com/blog/2011/12/inode.html)
 
 ---
-### 数据结构
-#### 树
+## 数据结构
+### 树
   - [红黑树](https://blog.csdn.net/u014028063/article/details/84318349?spm=1001.2014.3001.5506)
 
 [习题](./notes/shujvjiegou.md)
   
 ---
-### 数据库
-#### 模型
+## 数据库
+### 模型
   - [依赖关系与范式](https://www.cnblogs.com/wsyjlly/p/10387413.html#:~:text=%E9%9D%9E%E5%B9%B3%E5%87%A1%E7%9A%84%E5%A4%9A%E5%80%BC%E4%BE%9D%E8%B5%96%EF%BC%9A%E8%8B%A5X%E2%80%94%3E%E2%80%94%3EY%EF%BC%8C,%E5%B9%B6%E4%B8%94X%EF%BC%8CY%EF%BC%8CZ%E6%98%AFU%E7%9A%84%E5%AD%90%E9%9B%86%EF%BC%8CZ%3DU-X-Y%EF%BC%8C%E8%8B%A5Z%E4%B8%8D%E4%B8%BA%E7%A9%BA%EF%BC%8C%E5%88%99%E7%A7%B0X%E2%80%94%3E%E2%80%94%3EY%E4%B8%BA%E9%9D%9E%E5%B9%B3%E5%87%A1%E7%9A%84%E5%A4%9A%E5%80%BC%E4%BE%9D%E8%B5%96%E3%80%82)
 
-#### 索引
+### 索引
   - [底层实现](https://blog.csdn.net/wangfeijiu/article/details/113409719)
 
 ---
-## 学业
-### 学校排名
+# 学业
+## 学校排名
   1. 国企对学校的排名参照泰晤士
-### 基本路线
+## 基本路线
   - [大学学习路线](https://blog.csdn.net/mengchuan6666/article/details/119062708)
 - 
 ---
-## 工具
-### Docker
+# 工具
+## Docker
   - [菜鸟教程](https://www.runoob.com/docker/docker-tutorial.html)
    
-### Redis
+## Redis
   - [菜鸟教程](https://www.runoob.com/redis/redis-tutorial.html) 
    
 ---
-## 人工智能
-### NLP
-#### 编译原理
+# 人工智能
+## NLP
+### 编译原理
   - 语法分析
     - [自等项上](https://blog.csdn.net/weixin_42815609/article/details/107631357?spm=1001.2014.3001.5506)
     - [典型文法](https://blog.csdn.net/qq_42977003/article/details/112341427?spm=1001.2014.3001.5506)
     - 
-## 网络安全
-### 学习路线
+# 网络安全
+## 学习路线
   - [网络安全学习路线](https://blog.csdn.net/mrbone9/article/details/123057077?spm=1001.2014.3001.5506)
   - [知识清单](https://blog.csdn.net/Internet_xx/article/details/119953419?spm=1001.2014.3001.5506)
 - 
 ---
-## 算法
-### 线段树
+# 算法
+## 线段树
   1. 应用范围：区间查询，单点查询，区间修改，单点修改
   - [洛谷题单](https://www.luogu.com.cn/training/206#problems)
 
-### 树状数组
+## 树状数组
   1. 功能被包含于线段树，只能进行单点修改和区间查询，但是代码更简洁
   - [图解](https://blog.csdn.net/bestsort/article/details/80796531?spm=1001.2014.3001.5506)
 
-### 网络流
+## 网络流
   1. [Dinic算法](https://blog.csdn.net/stjp20080714/article/details/118398290?spm=1001.2014.3001.5506)
 
-### 动态规划
+## 动态规划
   - [习题](./notes/dp_Exercise.md)
 
-### 算法设计
+## 算法设计
 
-### 题解汇总
+## 题解汇总
   - [Mycode](./notes/codes/)
 ---
-## 优秀博客
+# 优秀博客
   - [阮一峰](http://www.ruanyifeng.com/blog/computer/)
 
   - [武宁子](https://www.wolai.com/wuning/8m9F2QuBJbAM51RNbiBqyq)
@@ -119,28 +164,28 @@
 
   - [sherkevin](https://www.yuque.com/dashboard)：自用
 
-## 书籍推荐
-### CSAPP
+# 书籍推荐
+## CSAPP
   - [Labs](https://blog.csdn.net/weixin_43362650/article/details/122890142?spm=1001.2014.3001.5506)
 
-### 操作系统真相还原
+## 操作系统真相还原
   - [实践笔记](https://blog.csdn.net/qq_37500516/article/details/119133589?spm=1001.2014.3001.5506)
 ---
-## 面试
-### 企业面试
+# 面试
+## 企业面试
   - [2016互联网面试总结](https://blog.csdn.net/zhoufenqin/article/details/50911161?spm=1001.2014.3001.5506)
  - [C++ 面经](https://blog.csdn.net/weixin_42764932/article/details/129062145?spm=1001.2014.3001.5506)
  - [Linux 面试题](https://blog.csdn.net/a303549861/article/details/93754526?spm=1001.2014.3001.5506)
  - [华为内部面试](https://blog.csdn.net/weixin_34343689/article/details/94708153?spm=1001.2014.3001.5506)
 ---
-## 实用
-### API
+# 实用
+## API
   1. [API文档汇总](https://blog.csdn.net/freeking101/article/details/115191217?spm=1001.2014.3001.5506)
 
 ---
-## 杂谈
+# 杂谈
   - 计算机系统研究内核用三个词概括：计算 通信 存储
 
 ---
-## 未来规划
+# 未来规划
   - 去国外互联网
