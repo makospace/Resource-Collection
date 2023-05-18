@@ -9,9 +9,9 @@
 - [C++面向对象程序设计](https://blog.csdn.net/weixin_44368437/article/details/117563488?spm=1001.2014.3001.5506)
 - 
 ### 应用方向：
-1. 嵌入式
-2. 编译器
-3. 图形学
+  1. 嵌入式
+  2. 编译器
+  3. 图形学
    
 ## Go
 > Go 语言在1.5版本前主要由汇编和C语言写的，C语言占比85%以上，另外有少量的周边模块如文档等，带了些 html shell perl 代码，可以忽略不计。1.5版本及之后，Go 完成了语言自举， 由 89.9% 的Go，4.6%的汇编语言，0.2%的C语言，5.3%其他胶水语言（html shell perl）编写而成！
@@ -36,6 +36,7 @@
 ## 数学
 ### 概率
 - [习题](./notes/Probability_Theory.md)
+
 ## 基础知识
 ### 操作系统
 [CS-Notes](https://github.com/CyC2018/CS-Notes)
@@ -78,7 +79,11 @@
 ---
 ## 人工智能
 ### NLP
-
+#### 编译原理
+  - 语法分析
+    - [自等项上](https://blog.csdn.net/weixin_42815609/article/details/107631357?spm=1001.2014.3001.5506)
+    - [典型文法](https://blog.csdn.net/qq_42977003/article/details/112341427?spm=1001.2014.3001.5506)
+    - 
 ## 网络安全
 ### 学习路线
   - [网络安全学习路线](https://blog.csdn.net/mrbone9/article/details/123057077?spm=1001.2014.3001.5506)
@@ -86,35 +91,47 @@
 - 
 ---
 ## 算法
-#### 线段树
+### 线段树
   1. 应用范围：区间查询，单点查询，区间修改，单点修改
   - [洛谷题单](https://www.luogu.com.cn/training/206#problems)
 
-#### 树状数组
+### 树状数组
   1. 功能被包含于线段树，只能进行单点修改和区间查询，但是代码更简洁
   - [图解](https://blog.csdn.net/bestsort/article/details/80796531?spm=1001.2014.3001.5506)
-- 
-#### 网络流
+
+### 网络流
   1. [Dinic算法](https://blog.csdn.net/stjp20080714/article/details/118398290?spm=1001.2014.3001.5506)
 
-#### 动态规划
+### 动态规划
   - [习题](./notes/dp_Exercise.md)
 
 ### 算法设计
 
+### 题解汇总
+  - [Mycode](./notes/codes/)
 ---
 ## 优秀博客
   - [阮一峰](http://www.ruanyifeng.com/blog/computer/)
 
   - [武宁子](https://www.wolai.com/wuning/8m9F2QuBJbAM51RNbiBqyq)
 
-  - [Li-Yongjun](https://liyongjun.blog.csdn.net/?type=blog)
+  - [Li-Yongjun](https://liyongjun.blog.csdn.net/?type=blog)：自用
 
+  - [sherkevin](https://www.yuque.com/dashboard)：自用
+
+## 书籍推荐
+### CSAPP
+  - [Labs](https://blog.csdn.net/weixin_43362650/article/details/122890142?spm=1001.2014.3001.5506)
+
+### 操作系统真相还原
+  - [实践笔记](https://blog.csdn.net/qq_37500516/article/details/119133589?spm=1001.2014.3001.5506)
 ---
 ## 面试
 ### 企业面试
   - [2016互联网面试总结](https://blog.csdn.net/zhoufenqin/article/details/50911161?spm=1001.2014.3001.5506)
-
+ - [C++ 面经](https://blog.csdn.net/weixin_42764932/article/details/129062145?spm=1001.2014.3001.5506)
+ - [Linux 面试题](https://blog.csdn.net/a303549861/article/details/93754526?spm=1001.2014.3001.5506)
+ - [华为内部面试](https://blog.csdn.net/weixin_34343689/article/details/94708153?spm=1001.2014.3001.5506)
 ---
 ## 实用
 ### API

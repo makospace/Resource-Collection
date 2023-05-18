@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Christmas Tree</title>
+	<style>
+		body {
+			background-color: #0B3D91;
+		}
+		.tree {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 200px;
+			height: 300px;
+			background-color: #006400;
+			border-radius: 0 0 10px 10px;
+			overflow: hidden;
+		}
+		.tree:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 0;
+			height: 0;
+			border-left: 100px solid transparent;
+			border-right: 100px solid transparent;
+			border-bottom: 150px solid #008000;
+		}
+		.tree:after {
+			content: '';
+			position: absolute;
+			top: 75px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 50px;
+			height: 50px;
+			background-color: #FFD700;
+			border-radius: 50%;
+			box-shadow: 0 0 10px #FFD700;
+		}
+		.tree .lights {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 200px;
+			height: 300px;
+			overflow: hidden;
+		}
+		.tree .lights:before {
+			content: '';
+			position: absolute;
+			top: -50px;
+			left: -50px;
+			width: 300px;
+			height: 300px;
+			background-color: #FFD700;
+			border-radius: 50%;
+			box-shadow: 0 0 50px #FFD700;
+			animation: lights 2s linear infinite;
+		}
+		@keyframes lights {
+			0% {
+				transform: translate(-50%, -50%) scale(1);
+				opacity: 1;
+			}
+			50% {
+				transform: translate(-50%, -50%) scale(1.5);
+				opacity: 0.5;
+			}
+			100% {
+				transform: translate(-50%, -50%) scale(1);
+				opacity: 1;
+			}
+			50% {
+				transform: translate(-50%, -50%) scale(1.5);
+				opacity: 0.5;
+			}
+			100% {
+				transform: translate(-50%, -50%) scale(1);
+				opacity: 1;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="tree">
+		<div class="lights"></div>
+	</div>
+<script>
+    const tree = document.querySelector('.tree');
+    tree.addEventListener('mouseover', () => {
+        tree.style.transform = 'scale(1.1)';
+    });
+    tree.addEventListener('mouseout', () => {
+        tree.style.transform = 'scale(1)';
+    });
+</script>
+<script>
+    const body = document.querySelector('body');
+    body.addEventListener('click', (event) => {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        star.style.top = `${event.clientY}px`;
+        star.style.left = `${event.clientX}px`;
+        body.appendChild(star);
+        setTimeout(() => {
+            star.remove();
+        }, 1000);
+    });
+</script>
+<script>
+    const stars = document.querySelectorAll('.star');
+    stars.forEach(star => {
+        star.addEventListener('click', () => {
+            star.style.transform = 'rotate(360deg)';
+        });
+    });
+</script>
+<div style="position: absolute; bottom: 20px; right: 20px;">
+    <button onclick="window.location.href='https://www.google.com/'">跳转到Google</button>
+</div>
+
+</body>
+</html>
